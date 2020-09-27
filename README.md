@@ -1,2 +1,2 @@
-# Inventory-Management-System
-Website For Inventory Management System
+# Sanyojit
+A web-based inventory management system.

@@ -1,0 +1,81 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+    background-color: #eeffed;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arial","sans-serif",Lato;
+    font-weight: 500;
+}
+#content{
+    min-height: 600px;
+}
+.green{
+    color:#5bcc41;
+}
+.jumbotron{
+    background-color: white;
+}
+.navbar-brand{
+    font-size:37px;
+}
+.navbar{
+    height: 60px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    background-color: white;
+    
+}
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+color:#5bcc41;
+}
+.navbar .nav > li{
+    font-size: 17px;
+}
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    position:relative;
+    left:0;
+    text-align: center;
+}
+
+.red{
+    color:red;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    .navbar-collapse {
+    background:white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+  }
+    footer{
+        text-align:left;
+    }
+}
+

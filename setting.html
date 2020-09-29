@@ -1,0 +1,113 @@
+<!-- include connection here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/5.png"> 
+        <title>Setting | Sanyojit</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link href="style.css" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="new.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body style="padding-top: 50px;">
+        <!-- Header -->
+        <div class="navbar navbar-default  navbar-fixed-top"> 
+          <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+               </button>
+              <a class="navbar-brand green" href="index.html">SANYO<font color="#5bcc41">JIT</font></a>
+            </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+        <!--<?php
+          if (!isset($_SESSION['email'])) {
+          //if they havent logged in 
+          
+            <li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="contact_us.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+            <?php
+            }else {
+              //if they have logged in
+           ?> ?>-->
+           <li><a href = "workspace.html"><span class = "glyphicon glyphicon-list-alt"></span> WorkSpace </a></li>
+           <li><a href = "setting.html"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
+           <li><a href = "#"><span class = "glyphicon glyphicon-log-out"></span> Logout</a></li>
+          
+              <!--<?php
+             }
+             ?>-->
+           </ul>
+           </div>
+           </div>
+           </div>
+        <!--Header end-->
+        
+        <div class="container-fluid decor_bg" id="content" style="padding-top: 44px;">
+          
+                 <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+                     <div class="panel panel-success" >
+                            <div class="panel-heading">
+                                <h4>Change Password</h4>
+                            </div>
+                           
+                           <div class="panel-body">
+                        <form  action="#" method="POST">
+                          
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control"  placeholder="Enter valid email." name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" >
+                               <!--<?php
+                                      if(isset($_GET['m1'])){
+                                      echo $_GET['m1'];
+                                        }
+                                       ?>-->
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="password">Old Password:</label>
+                                <input type="password" class="form-control" placeholder="Type the old password here." name="opassword" required  pattern=".{6,}">
+                            </div>
+                           <div class="form-group">
+                                <label for="password">New Password:</label>
+                                <input type="password" class="form-control" placeholder="Make new Password (Atleast 6 charaters)" name="npassword" required  pattern=".{6,}">
+                            </div>
+                            <div class="form-group">
+                                      <!--<?php   this is for error
+                                      if(isset($_GET['m2'])){
+                                      echo $_GET['m2'];
+                                        }
+                                       ?>-->
+                            </div>
+                            <button type="submit" name="submit" class="btn btn-success">Change</button>
+                        </form>
+                           </div>
+                           
+                       </div>
+                    </div>
+                </div>
+        <br>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+           <center>
+            <p>Copyright &copy; Sanyojit. All Rights Reserved | Contact Us: +91 9000000000 | Developed By Team Codemic <span class="glyphicon glyphicon-globe"></span> </p>
+           </center>
+          </div>
+        </footer>
+        <!--Footer end-->
+
+    </body> 
+</html>

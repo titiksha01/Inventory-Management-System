@@ -3,7 +3,8 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>xxx</title>
+        <link rel="shortcut icon" href="img/5.png"> 
+        <title>ContactUs | Sanyojit</title>
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!-- Custom CSS -->
@@ -16,6 +17,12 @@
         <style>
             .x {
                font-size: 50px;
+                 }
+                 .pic{
+                     padding-top: 35px;
+                     max-width: 1150px;
+                     position: relative;
+                      margin: auto;
                  }
         </style>
     </head>
@@ -30,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                </button>
-              <a class="navbar-brand green" href="#about_us">SANYO<font color="#5bcc41">JIT</font></a>
+              <a class="navbar-brand green" href="index.html">SANYO<font color="#5bcc41">JIT</font></a>
             </div>
         <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -38,15 +45,15 @@
           if (!isset($_SESSION['email'])) {
           //if they havent logged in 
            ?>-->
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+            <li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="contact_us.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
              <!--<?php
             }else {
               //if they have logged in
            ?>
-           <li><a href = "#"><span class = "glyphicon glyphicon-list-alt"></span> WorkSpace </a></li>
-           <li><a href = "#"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
+           <li><a href = "workspace.html"><span class = "glyphicon glyphicon-list-alt"></span> WorkSpace </a></li>
+           <li><a href = "setting.html"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
            <li><a href = "#"><span class = "glyphicon glyphicon-log-out"></span> Logout</a></li>
           
              <?php
@@ -57,14 +64,16 @@
            </div>
            </div>
         <!--Header end-->
-       
+     
+        <div class="pic">
+       <img src="img/3.png" style="width:100%">
+        </div>
              <div id="content">
             <div class="row">
                 <div class="container">
-                    <h2>GET IN <font color="#5bcc41">TOUCH</font> WITH US :</h2>
                     <div class="col-xs-12">
-                        <h4>As we believe communication is the best way to make any system work.So do write 
-                        the queries and problems you face anytime during the working of SANYOJIT.</h4>
+                        <h3>Get In touch with us !
+                        <font color="#5bcc41">SANYOJIT.</font></h3>
                         <br>
                         <br>
                         <div class="row">
@@ -89,7 +98,7 @@
             </div>  
         </div>
         <!--Footer-->
-        <footer style="position:sbsolute;">
+        <footer >
           <div class="container">
            <center>
             <p>Copyright &copy; Sanyojit. All Rights Reserved | Contact Us: +91 9000000000 | Developed By Team Codemic <span class="glyphicon glyphicon-globe"></span> </p>

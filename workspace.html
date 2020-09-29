@@ -4,7 +4,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="img/5.png"> 
-        <title>ContactUs | Sanyojit</title>
+        <title>WorkSpace | Sanyojit</title>
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!-- Custom CSS -->
@@ -14,17 +14,6 @@
       <script src="new.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style>
-            .x {
-               font-size: 50px;
-                 }
-                 .pic{
-                     padding-top: 35px;
-                     max-width: 1150px;
-                     position: relative;
-                      margin: auto;
-                 }
-        </style>
     </head>
 
     <body style="padding-top: 50px;">
@@ -44,19 +33,19 @@
         <!--<?php
           if (!isset($_SESSION['email'])) {
           //if they havent logged in 
-           ?>-->
+           ?>
             <li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             <li><a href="contact_us.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
-             <!--<?php
+             <?php
             }else {
               //if they have logged in
-           ?>
+           ?>-->
            <li><a href = "workspace.html"><span class = "glyphicon glyphicon-list-alt"></span> WorkSpace </a></li>
            <li><a href = "setting.html"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
            <li><a href = "#"><span class = "glyphicon glyphicon-log-out"></span> Logout</a></li>
           
-             <?php
+             <!--<?php
              }
              ?>-->
            </ul>
@@ -64,42 +53,24 @@
            </div>
            </div>
         <!--Header end-->
-     
-        <div class="pic">
-       <img src="img/3.png" style="width:100%">
-        </div>
-             <div id="content">
-            <div class="row">
-                <div class="container">
-                    <div class="col-xs-12">
-                        <h3>Get In touch with us !
-                        <font color="#5bcc41">SANYOJIT.</font></h3>
-                        <br>
-                        <br>
-                        <div class="row">
-                       <div class=" col-xs-3 col-xs-offset-1">
-                         <span class = "x glyphicon glyphicon-map-marker"></span>
-                         <h4>Address : </h4><p>Street 2443 ,Your location</p>
-                    
-                    </div> 
-                    <div class=" col-xs-3 col-xs-offset-1">
-                    <span class = "x glyphicon glyphicon-earphone"></span>
-                    <h4>Call Us: </h4><p>+91 9000000000  </p>  
-                    
-                    </div> 
-                    <div class=" col-xs-3 col-xs-offset-1">
-                    <span class = "x glyphicon glyphicon-envelope"></span>
-                    <h4>Email Us: </h4><p>sanyojit@abc.com  </p>
-                    
-                    </div> 
-                        </div>
+        <div class="container ">
+            <div class="jumbotron col-xs-3 col-xs-offset-2" style="margin-top: 80px; background-color:#d6f5d6">
+                <h3>Dept 1</h3>
+                <a href = "add_item.html"><span class = "glyphicon glyphicon-plus-sign" style="color: #5bcc41"></span><b><font color="#5bcc41"> Add Items.</font></b></a>
                 </div>
-                    <div class="row"></div>
-            </div>  
-        </div>
+                
+            <div class="jumbotron col-xs-3 col-xs-offset-2" style="margin-top: 80px; background-color:#d6f5d6">
+                <h3>Dept 1</h3>
+                <a href = "view.html"><span class = "glyphicon glyphicon-th-list"style="color: #5bcc41"></span><b><font color="#5bcc41"> ViewMode.</font></b></a>
+                </div>
+                
+            </div> 
+        <a style="position: fixed; right:15px; bottom:42px; font-size:3em;" href = "#"><span class = "glyphicon glyphicon-plus-sign" style="color: #5bcc41"></span></a>
+       
+
         <!--Footer-->
-        <footer style="position:static;">
-          <div class="container">
+        <footer>
+            <div class="container">
            <center>
             <p>Copyright &copy; Sanyojit. All Rights Reserved | Contact Us: +91 9000000000 | Developed By Team Codemic <span class="glyphicon glyphicon-globe"></span> </p>
            </center>
@@ -109,4 +80,3 @@
 
     </body> 
 </html>
-

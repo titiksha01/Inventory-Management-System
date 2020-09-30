@@ -6,5 +6,5 @@ Team members are Titiksha Sharma and Abha Rawat.
 
 ## Tech-Stack Used:
 * Backend: Django
-* Frontend: HMTL, CSS, Bootstrap, Javascript
+* Frontend: HTML, CSS, Bootstrap, Javascript
 * Graphics: Photoshop, Canva

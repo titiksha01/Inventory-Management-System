@@ -1,0 +1,101 @@
+{% load staticfiles %}
+<!-- include connection here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="{% static 'img/5.png' %}">  
+        <title>Login | Sanyojit</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="new.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body style="padding-top: 50px;">
+        <!-- Header -->
+        <div class="navbar navbar-default  navbar-fixed-top"> 
+          <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+               </button>
+              <a class="navbar-brand green" href="index.html">SANYO<font color="#5bcc41">JIT</font></a>
+            </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+        
+           <li><a href = "workspace.html"><span class = "glyphicon glyphicon-list-alt"></span> WorkSpace </a></li>
+           <li><a href = "setting.html"><span class = "glyphicon glyphicon-user"></span> Settings</a></li>
+           <li><a href = "#"><span class = "glyphicon glyphicon-log-out"></span> Logout</a></li>
+          
+             
+           </ul>
+           </div>
+           </div>
+           </div>
+        <!--Header end-->
+        
+        <div class="container-fluid decor_bg" id="content" style="padding-top: 44px;">
+          
+                 <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+                     <div class="panel panel-success" >
+                            <div class="panel-heading">
+                                <h4>Login</h4>
+                            </div>
+                           
+                           <div class="panel-body">
+                            <form method="post">
+                              
+                       <form  action="#" method="POST">
+                            
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control"  placeholder="Enter valid email." name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" >
+                               
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">Dept No:</label>
+                                <input type="text" class="form-control"  placeholder="Enter vaild department no." maxlength="10" size="10"  name="deptno" required>
+                            </div>
+                         
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" placeholder="Password(Atleast 6 charaters)" name="password" required  pattern=".{6,}">
+                            </div>
+                        
+                            <div class="form-group">
+                                     
+                            </div>
+                            <button type="submit" name="submit" class="btn btn-success">Submit</button>
+                        </form> 
+                           </div>
+                           
+                           <div class="panel-footer">
+                                <p>Do not have an account? <a href="sign_up.html"><font color="#5bcc41">Register!</font></a></p>
+                            </div>
+                           
+                       </div>
+                    </div>
+                </div>
+        <br>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+           <center>
+            <p>Copyright &copy; Sanyojit. All Rights Reserved | Contact Us: +91 9000000000 | Developed By Team Codemic <span class="glyphicon glyphicon-globe"></span> </p>
+           </center>
+          </div>
+        </footer>
+        <!--Footer end-->
+
+    </body> 
+</html>
